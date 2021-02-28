@@ -1,0 +1,28 @@
+.background-menu {
+    background: url(../imagens/bg02-2.png) center center;
+    background-size: cover;
+}
+
+@media (max-width: 790px) {
+    .background-menu {
+        background: blue !important;
+    }
+}
+
+.max90 {
+    max-width: 90%;
+}
+
+.border-r {
+    border-radius: 15px;
+    border: none;
+}
+
+.pb-10 {
+    padding-bottom: 100px;
+}
+
+.background-section2 {
+    background: #2d3e50;
+}
+

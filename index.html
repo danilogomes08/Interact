@@ -3,93 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
     <title>Interact</title>
-    
 </head>
 <body>
     
-    <div class="background-menu">
-        <nav>
-            <div>
-                Inter<span>Act</span>
-            </div>
-            <div>
-                <ul>
-                    <li>
-                        <a href="#">Home</a>
-                        <a href="#">Why Us</a>
-                        <a href="#">Free Steps</a>
-                        <a href="#">Join Us</a>
-                        <a href="#">Pricing</a>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
+    <div class="background-menu text-white">
+        <nav class="navbar navbar-expand-md max90 mx-auto mb-5 pb-5">
+
+                <a href="#" class="navbar-brand text-white">
+                    Inter<span class="font-weight-bold">act</span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Abrir Navegação">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Why Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Free Steps</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white"  href="#">Join Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>  
         </nav>
-        <h1>
+
+        <h1 class="text-center pt-5 mb-5 pb-3">
             Get ready and start to take your <br>
             career to the next level
         </h1>
-        <div>
-            <form action="">
-                <input type="text" placeholder="Your name">
-                <input type="email" placeholder="Your email address">
-                <input type="button" value="START FREE COURSE">
-            </form>
-        </div>
-        <p>
+
+        <form class="form-inline justify-content-center">
+            <div class="form-group mb-2">
+              <label for="staticName" class="sr-only">Name</label>
+              <input type="text" class="form-control border-r" id="staticName" placeholder="Your Name*">
+            </div>
+            <div class="form-group mx-sm-3 mb-2">
+              <label for="inputEmail" class="sr-only">Password</label>
+              <input type="email" class="form-control border-r" id="inputEmail" placeholder="Your email address* ">
+            </div>
+            <button type="submit" class="btn mb-2 border-r">START FREE COURSE</button>
+        </form>
+
+        <p class="text-center pb-10 m-0">
             *Sign up and start learning your first course for free!
         </p>
     </div>
 
     <section class="background-section2">
-        <div>
-            <div>
-                <img src="" alt="">
-                <h1>LEARN DESIGNING</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed exercitationem 
-                    dignissimos commodi autem saepe sapiente vel rem odio eos aliquid recusandae 
-                    tempore sint explicabo aperiam consequatur cupiditate, iure officiis eius!
-                </p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <h1>ENJOY LEARNING</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed exercitationem 
-                    dignissimos commodi autem saepe sapiente vel rem odio eos aliquid recusandae 
-                    tempore sint explicabo aperiam consequatur cupiditate, iure officiis eius!
-                </p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <h1>WRITE CLEAN CODE</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed exercitationem 
-                    dignissimos commodi autem saepe sapiente vel rem odio eos aliquid recusandae 
-                    tempore sint explicabo aperiam consequatur cupiditate, iure officiis eius!
-                </p>
+        <div class="container pt-5 text-white pb-5">
+            <div class="row text-center mt-5 mb-5 d-flex justify-content-between">
+                <div class="col-xl-3 col-md-6">
+                    <div style="height: 50px;" class="d-flex justify-content-center mb-4">
+                        <img src="imagens/leaf.png" alt="leaf">
+                    </div>
+                    <h1 class="h5">LEARN DESIGNING</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed exercitationem 
+                        dignissimos 
+                    </p>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                    <div style="height: 50px;" class="d-flex justify-content-center mb-4">
+                        <img src="imagens/heart.png" alt="heart">
+                    </div>
+                    <h1 class="h5">ENJOY LEARNING</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed exercitationem 
+                        dignissimos 
+                    </p>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                    <div style="height: 50px;" class="d-flex justify-content-center mb-4">
+                        <img src="imagens/code.png" alt="code">
+                    </div>
+                    <h1 class="h5">WRITE CLEAN CODE</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed exercitationem 
+                        dignissimos 
+                    </p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section>
-        <div>
-            <h1>
-                Complete the course and 
-                showcase your sucess with
-                a certificate
-            </h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore similique repellat iusto. 
-                Doloribus iste eius omnis suscipit rerum repellat, reiciendis ratione fuga, expedita libero 
-                est doloremque sed hic velit saepe.
-            </p>
-        </div>
-        <div>
-            <img src="" alt="">
+    <section class="container pt-5 pb-5">
+        <div class="row justify-content-center">
+            <div class="col-xl-6 align-self-end">
+                <h1>
+                    Complete the course and
+                    showcase your sucess with
+                    a certificate
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore similique repellat iusto. 
+                    Doloribus iste eius omnis suscipit rerum repellat, reiciendis ratione fuga, expedita libero 
+                    est doloremque sed hic velit saepe.
+                </p>
+            </div>
+            <div class="col-xl-6">
+                <img src="imagens/imagem01.png" alt="">
+            </div>
         </div>
     </section>
 
@@ -219,6 +251,9 @@
             @ Zytheme 2021, All Rights Reserved
         </p>
     </footer>
+    <script src="script/jquery-3.2.1.slim.min.js"></script>
+    <script src="script/bootstrap.js"></script>
+    <script src="script/popper.min.js"></script>
 
 </body>
 </html>
