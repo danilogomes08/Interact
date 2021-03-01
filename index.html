@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-
     <title>Interact</title>
 </head>
 <body>
@@ -183,67 +182,79 @@
         </div>
     </section>
 
-    <section class="container">
-        <div class="row justify-content-center">
+    <section class="container pt-5 pb-5">
+        <div class="row justify-content-center pt-5 pb-5">
             <div class="col-xl-5 col-md-6">
-                <h1 class="h2">
+                <h1 class="h2 mb-4">
                     Master some skills and get your free course now!
                 </h1>
                 <blockquote class="font-italic">
-                    " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut similique sit quidem repellat culpa quia magnam nihil deserunt itaque "
+                    " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut similique sit quidem repellat 
+                    culpa quia magnam nihil deserunt itaque ipsum dolor sit amet consectetur adipisicing elit similique 
+                    sit quidem repellat deserunt itaque ipsum dolor sit amet consectetu"
                 </blockquote>
-                <img src="imagens/diploma.png" alt="" class="rounded-circle">
-                <p>
-                    Maya Henry
-                </p>
-                <p>
-                    Diploma in Web Desing
-                </p>
+                <div class="d-flex mt-5">
+                    <img src="imagens/diploma.png" alt="" class="rounded-circle">
+                    <p class="mx-2 align-self-center">
+                        Maya Henry 
+                        <span class="d-block">
+                            Diploma in Web Desing
+                        </span>
+                    </p>
+                </div>
             </div>
-            <div class="col-xl-5 col-md-6">
-                <h3>
+            <div class="col-xl-5 col-md-6 backgroud-section4 p-5">
+                <h2 class="h4 mb-5">
                     Sign up and start your first course for free now!
-                </h3>
-                <form action="">
-                    <input type="text" placeholder="Your name">
-                    <input type="email" placeholder="Your Email Address">
-                </form>
-                <input type="button" value="START FREE COURSE">
+                </h2>
+                <form class="pb-3">
+                    <div class="form-group">
+                      <input type="email" class="form-control border-r" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Name*">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" class="form-control border-r" id="exampleInputPassword1" placeholder="Your Email Address*">
+                    </div>
+                    <button type="submit" class="btn border-r w-100">Submit</button>
+                  </form>
             </div>
         </div>
     </section>
     
-    <section>
-        <h1>
-            COURSE PRICE
-        </h1>
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi aut soluta deserunt libero. Atque, voluptatem! Necessitatibus, 
-            reprehenderit? Vel, adipisci tenetur nihil molestiae quos provident saepe perferendis, excepturi maxime dolorem id?
-        </p>
-        <div>
-            <h2>
-                LEVEL ONE
-            </h2>
-            <p>
-                0 <sub>$</sub>
+    <section class="backgroud-section4">
+        <div class="container pt-5 pb-5">
+            <h1 class="text-center">
+                COURSE PRICE
+            </h1>
+            <p class="text-center">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi aut soluta deserunt libero. <span class="d-block">Atque, voluptatem! Necessitatibus, 
+                reprehenderit? </span>
             </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae assumenda magni eos eveniet reiciendis explicabo tempora 
-            </p>
-            <button>GET STARTED</button>
-        </div>
-        <div>
-            <h2>
-                FULL COURSE
-            </h2>
-            <p>
-                25 <sub>$</sub>
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae assumenda magni eos eveniet reiciendis explicabo tempora 
-            </p>
-            <button>GET STARTED</button>
+            <div class="row justify-content-center">
+                <div class="col-xl-4 col-md-6">
+                    <h2>
+                        LEVEL ONE
+                    </h2>
+                    <p>
+                        0 <sup>$</sup>
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae assumenda magni eos eveniet reiciendis explicabo tempora 
+                    </p>
+                    <button>GET STARTED</button>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <h2>
+                        FULL COURSE
+                    </h2>
+                    <p>
+                        25 <sup>$</sup>
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae assumenda magni eos eveniet reiciendis explicabo tempora 
+                    </p>
+                    <button>GET STARTED</button>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -261,9 +272,10 @@
             @ Zytheme 2021, All Rights Reserved
         </p>
     </footer>
-    <script src="script/jquery-3.2.1.slim.min.js"></script>
-    <script src="script/bootstrap.js"></script>
-    <script src="script/popper.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
 </html>
