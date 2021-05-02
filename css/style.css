@@ -5,7 +5,24 @@
 
 @media (max-width: 790px) {
     .background-menu {
-        background: blue !important;
+        background: #fafafa !important;
+    }
+    .background-menu > h1 {
+        color: #2d3e50;
+        text-align: left  !important;
+        margin: 0 10px;
+    }
+    .background-menu > nav > a, .nav-item > a, .background-menu > p {
+        color: #2d3e50 !important;
+    }
+    .background-menu > form {
+        display: block;
+        margin: 0 10px;
+    }
+    .background-menu > form > button {
+        width: 100%;
+        background-color: #2d3e50;
+        color: white;
     }
 }
 
